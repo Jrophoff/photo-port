@@ -33,7 +33,7 @@ function Nav(props) {
           {categories.map((category) => (
             <li
               className={`mx-1 ${
-                currentCategory.name === category.name && 'naveActive'
+                currentCategory.name === category.name && 'navActive'
               }`}
               key={category.name}
             >
